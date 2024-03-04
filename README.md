@@ -2,6 +2,7 @@ Projeto de React usando a API Rick and Morty para entrega de trabalho da pós gr
 
 * Aluna: Alessandra Gonçalves
 * Gmail: alessandra.vgs0@gmail.com
+* Pages do projeto: https://alessandravgs.github.io/rick-and-morty-project
 
 ## Descrição
 
