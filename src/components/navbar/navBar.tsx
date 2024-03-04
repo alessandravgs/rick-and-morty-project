@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <BoostrapNavbar.Brand href="/">
                     <div className="d-flex flex-row align-items-baseline gap-2">
                         <img
-                            src="/Rick-And-Morty-Symbol.png"
+                            src="/rick-and-morty-project//Rick-And-Morty-Symbol.png"
                             width="200px"
                             alt="logo"
                         ></img>
