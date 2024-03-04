@@ -8,7 +8,7 @@ export const EpisodioCard = ({ episode }: IPropsEpisodeCard) => {
         <div className="wrap-card col col-md-4 col-xl-3 mb-4">
             <Link
                 className="card text-decoration-none pointer"
-                to={`/episodio/${episode.id}`}
+                to={`/rick-and-morty-project/episodio/${episode.id}`}
             >
                 <Card
                     className="card-card card-card-episode"

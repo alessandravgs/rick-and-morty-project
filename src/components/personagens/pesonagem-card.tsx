@@ -8,7 +8,7 @@ export const PersonagemCard = ({ character }: IPropsCharacterCard) => {
         <div className="wrap-card col col-md-4 col-xl-3 mb-4">
             <Link
                 className="card text-decoration-none pointer"
-                to={`/personagem/${character.id}`}
+                to={`/rick-and-morty-project/personagem/${character.id}`}
             >
                 <Card className="card-card" style={{ minWidth: "15rem" }}>
                     <Card.Img variant="top" src={character.image} />

@@ -19,21 +19,21 @@ export const Navbar = () => {
                     <Nav className="ms-auto">
                         <Link
                             className="nav-link"
-                            to="/">
+                            to="/rick-and-morty-project">
                             {" "}
                             Personagens
                         </Link>
 
                         <Link
                             className="nav-link"
-                            to="episodio">
+                            to="/rick-and-morty-project/episodio">
                             {" "}
                             Episódios
                         </Link>
 
                         <Link
                             className="nav-link"
-                            to="localizacao" >
+                            to="/rick-and-morty-project/localizacao" >
                             {" "}
                             Localizações
                         </Link>

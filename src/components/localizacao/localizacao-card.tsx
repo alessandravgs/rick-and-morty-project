@@ -8,7 +8,7 @@ export const LocalizacaoCard = ({ location }: IPropsLocationCard) => {
         <div className="wrap-card col col-md-4 col-xl-3 mb-4">
             <Link
                 className="card text-decoration-none pointer"
-                to={`/localizacao/${location.id}`}
+                to={`/rick-and-morty-project/localizacao/${location.id}`}
             >
                 <Card
                     className="card-card card-card-episode"

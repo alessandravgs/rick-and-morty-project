@@ -19,12 +19,12 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <BrowserRouter>
             <Routes>
                 <Route element={<App />}>
-                    <Route path="/" element={<Personagem />} />
-                    <Route path="/personagem/:id" element={<PersonagemDetalhes />}/>
-                    <Route path="/episodio" element={<Episodios />} />
-                    <Route path="/episodio/:id" element={<EpisodioDetalhes />} />
-                    <Route path="/localizacao" element={<Localizacao />} />
-                    <Route path="/localizacao/:id" element={<LocalizacaoDetalhes />} />
+                    <Route path="/rick-and-morty-project" element={<Personagem />} />
+                    <Route path="/rick-and-morty-project/personagem/:id" element={<PersonagemDetalhes />}/>
+                    <Route path="/rick-and-morty-project/episodio" element={<Episodios />} />
+                    <Route path="/rick-and-morty-project/episodio/:id" element={<EpisodioDetalhes />} />
+                    <Route path="/rick-and-morty-project/localizacao" element={<Localizacao />} />
+                    <Route path="/rick-and-morty-project/localizacao/:id" element={<LocalizacaoDetalhes />} />
                 </Route>
             </Routes>
         </BrowserRouter>
